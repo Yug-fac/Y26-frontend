@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Calendar, FileText, TrendingUp, DollarSign, Receipt, Download, Eye } from 'lucide-react';
-import { eventsAPI, reportsAPI, Event, FinancialReport } from '../../api';
+import { eventsAPI, reportsAPI, Event, FinancialReport } from '@/api';
 
 const CoordinatorDashboard = () => {
   const [events, setEvents] = useState<Event[]>([]);

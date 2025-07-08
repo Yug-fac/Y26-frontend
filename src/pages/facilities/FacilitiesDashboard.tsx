@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Package, Receipt, Calendar, TrendingUp, Plus, DollarSign, CheckCircle, Clock } from 'lucide-react';
-import { eventsAPI, expensesAPI, Event, Expense } from '../../api';
+import { eventsAPI, expensesAPI, Event, Expense } from '@/api';
 
 const FacilitiesDashboard = () => {
   const [events, setEvents] = useState<Event[]>([]);

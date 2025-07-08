@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Clock, CheckCircle, XCircle, DollarSign, Calendar, TrendingUp, AlertTriangle, FileText } from 'lucide-react';
-import { eventsAPI, Event } from '../../api';
+import { eventsAPI, Event } from '@/api';
 
 const FinanceDashboard = () => {
   const [events, setEvents] = useState<Event[]>([]);
